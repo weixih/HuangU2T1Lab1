@@ -5,12 +5,14 @@ public class Cat {
     private String name;
     private int age;
     private double weight;
+    private String color;
 
     // constructor
-    public Cat(String catName, int catAge, double catWeight) {
+    public Cat(String catName, int catAge, double catWeight, String catColor) {
         name = catName;
         age = catAge;
         weight = catWeight;
+        color = catColor;
 
     }
 
@@ -28,6 +30,7 @@ public class Cat {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Weight: " + weight);
+        System.out.println("Color: "+ color);
 
     }
 }
